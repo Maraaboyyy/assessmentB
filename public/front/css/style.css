@@ -1,0 +1,96 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* Removed width and height */
+header img {
+    margin-right: 10px;
+}
+
+h1 {
+    color: grey;
+    font-size: 3em;
+    margin: 0;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main {
+    text-align: center;
+}
+
+p.loyalty-points {
+    margin-bottom: 20px; /* Adjusted margin for spacing */
+    color: orange; /* Adjusted color to orange */
+}
+
+.points {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.points-container {
+    display: flex;
+    align-items: center;
+    margin-right: 10px; /* Adjusted margin for spacing */
+}
+
+.points p:first-child {
+    font-size: 1.5em;
+    margin-right: 10px; /* Adjusted margin for spacing */
+}
+
+select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%; /* Make the input box fill its container */
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+span.powered-by {
+    color: blue; /* Adjusted color to blue */
+}
